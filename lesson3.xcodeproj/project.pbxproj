@@ -13,6 +13,9 @@
 		ADD1AE2C288063F600ADC24C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD1AE2A288063F600ADC24C /* Main.storyboard */; };
 		ADD1AE2E288063F700ADC24C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD1AE2D288063F700ADC24C /* Assets.xcassets */; };
 		ADD1AE31288063F700ADC24C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD1AE2F288063F700ADC24C /* LaunchScreen.storyboard */; };
+		ADD1AE392880687500ADC24C /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD1AE382880687500ADC24C /* WordCell.swift */; };
+		ADD1AE3B28806CAA00ADC24C /* LetterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD1AE3A28806CAA00ADC24C /* LetterCell.swift */; };
+		ADD1AE3D28806DD600ADC24C /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD1AE3C28806DD600ADC24C /* WordModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		ADD1AE2D288063F700ADC24C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADD1AE30288063F700ADC24C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADD1AE32288063F700ADC24C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD1AE382880687500ADC24C /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
+		ADD1AE3A28806CAA00ADC24C /* LetterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCell.swift; sourceTree = "<group>"; };
+		ADD1AE3C28806DD600ADC24C /* WordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				ADD1AE2D288063F700ADC24C /* Assets.xcassets */,
 				ADD1AE2F288063F700ADC24C /* LaunchScreen.storyboard */,
 				ADD1AE32288063F700ADC24C /* Info.plist */,
+				ADD1AE382880687500ADC24C /* WordCell.swift */,
+				ADD1AE3A28806CAA00ADC24C /* LetterCell.swift */,
+				ADD1AE3C28806DD600ADC24C /* WordModel.swift */,
 			);
 			path = lesson3;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD1AE3B28806CAA00ADC24C /* LetterCell.swift in Sources */,
+				ADD1AE3D28806DD600ADC24C /* WordModel.swift in Sources */,
 				ADD1AE29288063F600ADC24C /* ViewController.swift in Sources */,
+				ADD1AE392880687500ADC24C /* WordCell.swift in Sources */,
 				ADD1AE25288063F600ADC24C /* AppDelegate.swift in Sources */,
 				ADD1AE27288063F600ADC24C /* SceneDelegate.swift in Sources */,
 			);
